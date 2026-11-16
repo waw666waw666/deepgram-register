@@ -15,7 +15,7 @@ def parse_accounts_file(filepath: Path) -> List[Dict[str, str]]:
     if not filepath.exists():
         return accounts
 
-    with open(filepath, "r", encoding="utf-8") as f:
+    with open(filepath, "r", encoding="utf-8", errors="replace") as f:
         for line in f:
             line = line.strip()
             if not line or "----" not in line:

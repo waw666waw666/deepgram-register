@@ -107,8 +107,9 @@ class DeepgramAdapter(BaseSiteAdapter):
         password = self.account_data["password"]
         base_url = "https://manage.deepgram.com/v1"
         session = requests.Session()
+        ua = self.page.evaluate("() => navigator.userAgent") if self.page else "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
         session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "User-Agent": ua,
             "Content-Type": "application/json",
             "Origin": "https://console.deepgram.com",
             "Referer": "https://console.deepgram.com/",
@@ -183,6 +184,6 @@ class DeepgramAdapter(BaseSiteAdapter):
 
         key_data = r_key.json()
         self.api_key = key_data.get("key") or key_data.get("api_key")
-        print(f"[★] [Deepgram] Successfully extracted API Key: {self.api_key} ($200 USD allowance)")
+        print(f"[+] [Deepgram] Successfully extracted API Key: {self.api_key} ($200 USD allowance)")
         self.account_data["api_key"] = self.api_key
         return True
