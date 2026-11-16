@@ -1,5 +1,5 @@
 """
-Deepgram RegisterHub - Standalone Entry Point.
+Deepgram Register - Standalone Entry Point.
 Powered by RegisterHub (https://github.com/waw666waw666/RegisterHub).
 """
 import os
@@ -49,7 +49,7 @@ def run_single(config: dict, headless_override=None, proxy_override=None) -> boo
     output_dir = Path(config.get("output_dir", "./results"))
 
     print("=" * 65)
-    print("  Deepgram RegisterHub - Execution Pipeline")
+    print("  Deepgram Register - Execution Pipeline")
     print("  Channel  :", channel)
     print("  Headless :", headless)
     print("  Proxy    :", proxy_server or "Direct Connection")

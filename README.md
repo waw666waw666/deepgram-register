@@ -1,4 +1,4 @@
-# Deepgram RegisterHub
+# Deepgram Register
 
 > **Deepgram 语音 AI 平台自动化注册与 $200 免费额度 API Key 极速直出工具**  
 > 遵循“开箱即用，极简交付”原则，零复杂配置，一键下号并提取可用 API Key。
@@ -119,10 +119,10 @@ python main.py --headless -n 1
 | 独立开源项目 | 核心特色与福利 | 源码直达 |
 | :--- | :--- | :--- |
 | **RegisterHub** | 通用自动化注册母港与脚手架引擎 | [GitHub](https://github.com/waw666waw666/RegisterHub) |
-| **Deepgram RegisterHub** | 官方 $200 免费额度 + 谷歌人机穿透 + 纯协议提 Key | [GitHub](https://github.com/waw666waw666/deepgram-register) |
-| **100MilionSeek RegisterHub** | 每天免费 1 亿 Token 算力 + 免收信秒出 Key + 母号裂变 | [GitHub](https://github.com/waw666waw666/100milionseek-register) |
-| **AMD AI Dev RegisterHub** | AMD 官方大厂计划 + Akamai 遥测 + OneTrust 穿透 | [GitHub](https://github.com/waw666waw666/amd-register) |
-| **Coarena RegisterHub** | 谷歌登录后 100% 协议提 Key 与每日额度审计 | [GitHub](https://github.com/waw666waw666/coarena-register) |
+| **Deepgram Register** | 官方 $200 免费额度 + 谷歌人机穿透 + 纯协议提 Key | [GitHub](https://github.com/waw666waw666/deepgram-register) |
+| **100MilionSeek Register** | 每天免费 1 亿 Token 算力 + 免收信秒出 Key + 母号裂变 | [GitHub](https://github.com/waw666waw666/100milionseek-register) |
+| **AMD AI Dev Register** | AMD 官方大厂计划 + Akamai 遥测 + OneTrust 穿透 | [GitHub](https://github.com/waw666waw666/amd-register) |
+| **Coarena Register** | 谷歌登录后 100% 协议提 Key 与每日额度审计 | [GitHub](https://github.com/waw666waw666/coarena-register) |
 
 ---
 
