@@ -10,31 +10,31 @@
 
 ---
 
-##  Ecosystem & Backlink Notice
+## Ecosystem & Backlink Notice
 
->  **Framework Origin**:  
+> **Framework Origin**:  
 > This standalone tool is derived directly from **[AutoRegister Community](https://github.com/waw666waw666/register-community)**, a general-purpose automated account registration and credential management framework.  
 > 
 > If you need multi-site orchestration, tri-channel disposable mailbox rotators, lifecycle credential verification, or automated adapter code generation scaffolds, check out our primary repository:  
 > 
->  **Main Framework Repository**: **[https://github.com/waw666waw666/register-community](https://github.com/waw666waw666/register-community)**
+> **Main Framework Repository**: **[https://github.com/waw666waw666/register-community](https://github.com/waw666waw666/register-community)**
 
 ---
 
-##  Overview
+## Overview
 
 A hybrid Playwright + REST protocol registration engine tailored for Deepgram (https://console.deepgram.com). Features active Google reCAPTCHA v2 penetration and sub-100ms atomic API key harvesting with official $200 USD free credit allowance.
 
-###  Key Highlights
+### Key Highlights
 
--  **$200 USD Free Credit**: New accounts receive $200 official balance without credit card requirements
-- ️ **Active reCAPTCHA v2 Penetration**: Automatically resolves checkboxes on clean proxies without human intervention
--  **Sub-100ms Key Harvesting**: Pure REST protocol key generation and extraction directly via management API
--  **Tri-Channel Disposable Email**: Integrated mail.tm / tempmail.io / guerrillamail fallback polling
+- **$200 USD Free Credit**: New accounts receive $200 official balance without credit card requirements
+- **Active reCAPTCHA v2 Penetration**: Automatically resolves checkboxes on clean proxies without human intervention
+- **Sub-100ms Key Harvesting**: Pure REST protocol key generation and extraction directly via management API
+- **Tri-Channel Disposable Email**: Integrated mail.tm / tempmail.io / guerrillamail fallback polling
 
 ---
 
-##  Quickstart
+## Quickstart
 
 ### 1. Prerequisites and Installation
 
@@ -91,7 +91,7 @@ email----password----api_key----timestamp
 
 ---
 
-## ️ Ecosystem Portfolio
+## Ecosystem Portfolio
 
 Part of the AutoRegister open-source automation family:
 
@@ -105,6 +105,6 @@ Part of the AutoRegister open-source automation family:
 
 ---
 
-## ️ Legal Disclaimer
+## Legal Disclaimer
 
 This project is intended strictly for authorized educational research, browser automation benchmarking, and legitimate quality assurance. Users must strictly adhere to the target platform's Terms of Service and all applicable regional laws. See [DISCLAIMER.md](DISCLAIMER.md).
