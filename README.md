@@ -1,12 +1,21 @@
-# Deepgram Register
+<h1 align="center">Deepgram Register</h1>
 
-> **Deepgram 语音 AI 平台自动化注册与 $200 免费额度 API Key 极速直出工具**  
-> 遵循“开箱即用，极简交付”原则，零复杂配置，一键下号并提取可用 API Key。
+<p align="center">
+  <b>Deepgram 语音 AI 平台自动化注册与 $200 免费额度 API Key 极速直出工具</b><br>
+  <i>遵循“开箱即用，极简交付”原则，零复杂配置，一键下号并提取可用 API Key。</i>
+</p>
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen.svg)](https://www.python.org/)
-[![Playwright](https://img.shields.io/badge/playwright-stealth-orange.svg)](https://playwright.dev/)
-[![Powered By](https://img.shields.io/badge/Powered%20By-RegisterHub-purple.svg)](https://github.com/waw666waw666/RegisterHub)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-22272e.svg?style=flat-square" alt="License"></a>
+  <a href="DISCLAIMER.zh.md"><img src="https://img.shields.io/badge/Disclaimer-Legal%20Terms-red.svg?style=flat-square" alt="Disclaimer"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-3776ab.svg?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://playwright.dev/"><img src="https://img.shields.io/badge/Playwright-Stealth-2EAD33.svg?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"></a>
+  <a href="https://github.com/waw666waw666/RegisterHub"><img src="https://img.shields.io/badge/Powered%20By-RegisterHub-purple.svg?style=flat-square" alt="Powered By"></a>
+</p>
+
+<p align="center">
+  <a href="./README.md">简体中文</a> | <a href="./README_EN.md">English</a>
+</p>
 
 ---
 
@@ -109,6 +118,21 @@ python main.py --headless -n 1
 ```text
 邮箱----密码----有效API_Key----时间戳
 ```
+
+### 4. AI 助手协同指南 (Cursor / Claude Code / Windsurf / Gemini)
+
+本项目对 AI 编程助手高度友好，开箱即用：
+
+**前置操作**：使用你的 AI 编程客户端将本子项目文件夹（**`deepgram-register`**）作为独立工作区根目录打开。
+
+载入工作区后，推荐使用以下两种方式引导 AI 协助运行与排障：
+
+- **方法一：直接丢（快捷交互）**：直接向 AI 发送 `请帮我检查本地环境并运行本项目，将新号凭据保存到 results/accounts.txt`。
+- **方法二：给步骤（强烈推荐，稳健可靠）**：向 AI 发送：
+  1. 检查 Python 依赖与 Playwright 浏览器内核；
+  2. 参考 config.example.json 配置 config.json（填入代理或邮箱）；
+  3. 执行 python main.py 并在控制台监控运行日志；
+  4. 检查 results/accounts.txt 中的成号数据与 API Key 格式。
 
 ---
 

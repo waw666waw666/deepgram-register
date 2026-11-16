@@ -1,12 +1,21 @@
-# Deepgram Register
+<h1 align="center">Deepgram Register</h1>
 
-> **Automated Registration & $200 Free Credit API Key Harvester for Deepgram Voice AI**  
-> Built for zero-configuration, production-grade automated account generation and API key minting.
+<p align="center">
+  <b>Automated Registration & $200 Free Credit API Key Harvester for Deepgram Voice AI</b><br>
+  <i>Built for zero-configuration, production-grade automated account generation and API key minting.</i>
+</p>
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen.svg)](https://www.python.org/)
-[![Playwright](https://img.shields.io/badge/playwright-stealth-orange.svg)](https://playwright.dev/)
-[![Powered By](https://img.shields.io/badge/Powered%20By-RegisterHub-purple.svg)](https://github.com/waw666waw666/RegisterHub)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-22272e.svg?style=flat-square" alt="License"></a>
+  <a href="DISCLAIMER.md"><img src="https://img.shields.io/badge/Disclaimer-Legal%20Terms-red.svg?style=flat-square" alt="Disclaimer"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-3776ab.svg?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://playwright.dev/"><img src="https://img.shields.io/badge/Playwright-Stealth-2EAD33.svg?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"></a>
+  <a href="https://github.com/waw666waw666/RegisterHub"><img src="https://img.shields.io/badge/Powered%20By-RegisterHub-purple.svg?style=flat-square" alt="Powered By"></a>
+</p>
+
+<p align="center">
+  <a href="./README_EN.md">English</a> | <a href="./README.md">简体中文</a>
+</p>
 
 ---
 
@@ -109,6 +118,21 @@ Extracted credentials will be safely recorded in **`results/accounts.txt`**:
 ```text
 email----password----api_key----timestamp
 ```
+
+### 4. AI Co-Pilot Workflow (Cursor / Claude Code / Windsurf / Gemini)
+
+This subproject is optimized for seamless interaction with AI coding assistants:
+
+**Prerequisite**: Open this project folder (**`deepgram-register`**) as your active workspace root in your AI editor.
+
+Choose between two workflows:
+
+- **Method 1: Direct Prompting (Quick Interaction)**: Ask your AI: `Please inspect the environment, configure config.json, run main.py, and ensure new account records are written to results/accounts.txt`.
+- **Method 2: Step-by-Step Prompting (Recommended)**: Instruct your AI:
+  1. Verify Python dependencies and Playwright browser installation;
+  2. Setup config.json based on config.example.json with proper proxy/mailbox;
+  3. Execute python main.py and observe live logs;
+  4. Verify extracted API keys in results/accounts.txt.
 
 ---
 
