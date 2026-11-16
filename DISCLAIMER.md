@@ -6,7 +6,7 @@
 
 --- ### 0. Definitions & Interpretation
 
-- **"This Project"**: Refers to the `AutoRegister` repository (encompassing both `RegisterHub` and `AutoRegister Pro`), including all source code, binaries, modules, scaffolding engines, site adapters, documentation, configurations, test fixtures, and all commit histories.
+- **"This Project"**: Refers to the `RegisterHub` repository (encompassing both `RegisterHub` and `RegisterHub Pro`), including all source code, binaries, modules, scaffolding engines, site adapters, documentation, configurations, test fixtures, and all commit histories.
 - **"User"**: Any individual, corporation, unincorporated association, automated agent (AI Agent), CI/CD pipeline, or crawler that accesses, clones, downloads, executes, reads, references, compiles, or redistributes this repository directly or indirectly.
 - **"Derivative Works"**: Any work, modification, repackaging, fork, wrapper, plugin, or compilation derived from this software, regardless of scope or distribution medium.
 - **"Third-Party Services"**: Any third-party website, domain, API endpoint, cloud compute provider, authentication provider, or email system referenced within code or tests.

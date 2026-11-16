@@ -175,7 +175,7 @@ class DeepgramAdapter(BaseSiteAdapter):
         # Issue API Key
         print(f"[*] [Deepgram] Issuing permanent API Key for project: {proj_id}...")
         r_key = session.post(f"{base_url}/projects/{proj_id}/keys", json={
-            "comment": "AutoRegister-Key",
+            "comment": "RegisterHub-Key",
             "scopes": ["admin"]
         }, timeout=15)
         if r_key.status_code not in (200, 201):

@@ -306,7 +306,7 @@ def run_doctor(output_dir: str = "./results") -> bool:
     not fail the run, but are reported distinctly.
     """
     print("=" * 68)
-    print("  AutoRegister Environment Diagnostics")
+    print("  RegisterHub Environment Diagnostics")
     print("=" * 68)
     print(f"{_C_DIM}  Every check below executes a real operation. "
           f"Import success alone is not accepted.{_C_RESET}")
