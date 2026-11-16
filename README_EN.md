@@ -128,11 +128,11 @@ This subproject is optimized for seamless interaction with AI coding assistants:
 Choose between two workflows:
 
 - **Method 1: Direct Prompting (Quick Interaction)**: Ask your AI: `Please inspect the environment, configure config.json, run main.py, and ensure new account records are written to results/accounts.txt`.
-- **Method 2: Step-by-Step Prompting (Recommended)**: Instruct your AI:
-  1. Verify Python dependencies and Playwright browser installation;
-  2. Setup config.json based on config.example.json with proper proxy/mailbox;
-  3. Execute python main.py and observe live logs;
-  4. Verify extracted API keys in results/accounts.txt.
+- **Method 2: Provide Runtime Logs & Screenshots (Recommended for Precision)**: Run once manually or inspect the flow in your browser, then send live logs or screenshots directly to the AI:
+  ```text
+  I encountered this state while running the project (logs/screenshots attached). Please inspect according to AGENTS.md rules and resolve the blockage!
+  ```
+  The AI will directly correlate your real-world feedback with the project's stealth and pilot layers to patch the issue accurately!
 
 ---
 
