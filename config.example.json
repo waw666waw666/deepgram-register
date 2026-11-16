@@ -1,0 +1,15 @@
+{
+  "browser": {
+    "headless": false,
+    "slow_mo": 50,
+    "timeout": 35000,
+    "channel": "chrome",
+    "proxy": null
+  },
+  "defaults": {
+    "use_disposable_mail": true,
+    "mail_poll_timeout": 75,
+    "password_length": 14
+  },
+  "output_dir": "./results"
+}

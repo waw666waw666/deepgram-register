@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+results/
+accounts.txt
+accounts.txt.lock
+failed.txt
+failed.txt.lock
+config.json
+.env
+venv/
+.venv/
+.DS_Store
+Thumbs.db
