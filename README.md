@@ -102,7 +102,6 @@ python main.py --headless -n 1
 | **100MilionSeek AutoRegister** | ⚡ 每天免费 1 亿 Token 算力 + 免收信秒出 Key + 母号裂变 | [GitHub](https://github.com/waw666waw666/100milionseek-register) |
 | **AMD AI Dev AutoRegister** | 🏢 AMD 官方大厂计划 + Akamai 遥测 + OneTrust 穿透 | [GitHub](https://github.com/waw666waw666/amd-register) |
 | **Coarena AutoRegister** | 🔄 谷歌登录后 100% 协议提 Key 与每日额度审计 | [GitHub](https://github.com/waw666waw666/coarena-register) |
-| **QuanticData AutoRegister** | 🧩 纯本地 OpenCV 拼图滑块秒解 + 贝塞尔拟真拖拽 | [GitHub](https://github.com/waw666waw666/quanticdata-register) |
 
 ---
 

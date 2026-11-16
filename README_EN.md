@@ -102,7 +102,6 @@ Part of the AutoRegister open-source automation family:
 | **100MilionSeek AutoRegister** | 100M Tokens/day + Instant Card Key Harvester | [GitHub](https://github.com/waw666waw666/100milionseek-register) |
 | **AMD AI Dev AutoRegister** | Official AMD Program + Akamai Telemetry Parity | [GitHub](https://github.com/waw666waw666/amd-register) |
 | **Coarena AutoRegister** | Post-OAuth Pure REST Protocol Key Minting | [GitHub](https://github.com/waw666waw666/coarena-register) |
-| **QuanticData AutoRegister** | Local OpenCV Slider Solver + Bezier Kinematics | [GitHub](https://github.com/waw666waw666/quanticdata-register) |
 
 ---
 
