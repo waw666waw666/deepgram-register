@@ -129,3 +129,12 @@ Part of the RegisterHub open-source automation family:
 ## Legal Disclaimer
 
 This project is intended strictly for authorized educational research, browser automation benchmarking, and legitimate quality assurance. Users must strictly adhere to the target platform's Terms of Service and all applicable regional laws. See [DISCLAIMER.md](DISCLAIMER.md).
+
+---
+
+## Community & Support
+
+Join our developer community for technical discussions, custom adapter requests, and browser automation best practices:
+
+- **Discord Community**: [Join Discord](https://discord.gg/USnVJ9YQX)
+- **QQ Group**: 1130324020
