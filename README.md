@@ -6,18 +6,18 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen.svg)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/playwright-stealth-orange.svg)](https://playwright.dev/)
-[![Powered By](https://img.shields.io/badge/Powered%20By-RegisterHub-purple.svg)](https://github.com/waw666waw666/register-community)
+[![Powered By](https://img.shields.io/badge/Powered%20By-RegisterHub-purple.svg)](https://github.com/waw666waw666/RegisterHub)
 
 ---
 
 ## 框架母港与生态互链 (Ecosystem Backlink)
 
 > **项目背景与互相引流说明**：  
-> 本独立工程由 **[RegisterHub (register-community)](https://github.com/waw666waw666/register-community)** 开源注册自动化主框架一键解耦派生。  
+> 本独立工程由 **[RegisterHub](https://github.com/waw666waw666/RegisterHub)** 开源注册自动化主框架一键解耦派生。  
 > 
 > 如果你需要探索**更多站点的自动化支持**（如 Deepgram、100MilionSeek、AMD、Coarena 等）、**三通道公网临时邮箱轮换**、**账号资产全生命周期审计**、或通过**脚手架一键生成新站点适配器**，欢迎前往并 Star 我们的主框架仓库：  
 > 
-> **主框架项目传送门**：**[https://github.com/waw666waw666/register-community](https://github.com/waw666waw666/register-community)**
+> **主框架项目传送门**：**[https://github.com/waw666waw666/RegisterHub](https://github.com/waw666waw666/RegisterHub)**
 
 ---
 
@@ -118,7 +118,7 @@ python main.py --headless -n 1
 
 | 独立开源项目 | 核心特色与福利 | 源码直达 |
 | :--- | :--- | :--- |
-| **RegisterHub** | 通用自动化注册母港与脚手架引擎 | [GitHub](https://github.com/waw666waw666/register-community) |
+| **RegisterHub** | 通用自动化注册母港与脚手架引擎 | [GitHub](https://github.com/waw666waw666/RegisterHub) |
 | **Deepgram RegisterHub** | 官方 $200 免费额度 + 谷歌人机穿透 + 纯协议提 Key | [GitHub](https://github.com/waw666waw666/deepgram-register) |
 | **100MilionSeek RegisterHub** | 每天免费 1 亿 Token 算力 + 免收信秒出 Key + 母号裂变 | [GitHub](https://github.com/waw666waw666/100milionseek-register) |
 | **AMD AI Dev RegisterHub** | AMD 官方大厂计划 + Akamai 遥测 + OneTrust 穿透 | [GitHub](https://github.com/waw666waw666/amd-register) |
