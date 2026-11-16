@@ -30,8 +30,19 @@ class DeepgramAdapter(BaseSiteAdapter):
         return "https://console.deepgram.com/signup"
 
     def prepare_identity(self) -> Dict[str, Any]:
-        """Generate synthetic credentials matching target requirements."""
-        use_disposable = self.config.get("use_disposable_mail", True)
+        """Generate synthetic credentials matching target requirements, supporting custom mailbox."""
+        custom_email = self.config.get("email")
+        custom_pwd = self.config.get("password")
+        if custom_email:
+            ident = generate_identity(locale="US")
+            ident["email"] = custom_email
+            if custom_pwd:
+                ident["password"] = custom_pwd
+            self.mail_client = None
+            self.account_data = ident
+            return self.account_data
+
+        use_disposable = self.config.get("defaults", {}).get("use_disposable_mail", self.config.get("use_disposable_mail", True))
         if use_disposable:
             self.mail_client = DisposableMailClient()
             ident = generate_identity(locale="US", mail_client=self.mail_client)
@@ -123,11 +134,20 @@ class DeepgramAdapter(BaseSiteAdapter):
             print(f"[-] [Deepgram] Protocol signup error: {e}")
             return False
 
-        # Poll for 6-digit email verification code
-        print("[*] [Deepgram] Polling for 6-digit verification code...")
+        # Poll or prompt for 6-digit email verification code
         code = None
         if self.mail_client:
+            print("[*] [Deepgram] Polling public disposable mailbox for 6-digit verification code...")
             code = self.mail_client.poll_for_verification_code(pattern=r'\b\d{6}\b', timeout=90)
+        else:
+            print(f"\n{'=' * 65}")
+            print(f"  [Deepgram] 验证码已发送至自备邮箱: {email}")
+            print("  请查收邮件并将 6 位数字验证码粘贴至下方控制台后回车。")
+            print(f"{'=' * 65}\n")
+            try:
+                code = input("[?] 请输入 6 位验证码: ").strip()
+            except Exception:
+                pass
 
         if not code:
             print("[-] [Deepgram] Timeout waiting for verification code.")
