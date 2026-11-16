@@ -1,8 +1,8 @@
 @echo off
 chcp 65001 >nul
-title Deepgram AutoRegister
+title Deepgram RegisterHub
 echo ========================================================
-echo   Deepgram AutoRegister
+echo   Deepgram RegisterHub
 echo   Deepgram 语音 AI 平台自动化注册与 $200 免费额度 API Key 极速直出工具
 echo ========================================================
 echo.
