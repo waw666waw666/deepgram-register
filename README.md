@@ -52,12 +52,13 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 2. 运行配置 (可选)
+### 2. 运行配置与核心实操说明
 
-项目根目录提供开箱即用的 `config.example.json`。如需挂载本地代理或修改超时，直接复制为 `config.json` 即可：
+项目根目录提供开箱即用的 `config.example.json`。可复制为 `config.json` 进行配置：
 
 ```json
 {
+  "email": null,
   "browser": {
     "headless": false,
     "slow_mo": 50,
@@ -68,6 +69,26 @@ playwright install chromium
   "output_dir": "./results"
 }
 ```
+
+### 核心必读：邮箱配置与人机协同实操 (Email & Captcha Guide)
+
+1. **自备真实邮箱配置（100% 成功率保底，强烈推荐）**：
+   - Deepgram 官方封禁了公共临时邮箱域名（如 `mail.tm` 等）；
+   - 强烈建议在 `config.json` 中配置你自己的真实邮箱（推荐 Outlook、Gmail 或企业域名）：
+     ```json
+     {
+       "email": "your_personal_email@outlook.com",
+       "browser": {
+         "headless": false,
+         "proxy": "http://127.0.0.1:7897"
+       }
+     }
+     ```
+2. **真机窗口人机协同**：
+   - 必须在桌面有头窗口运行（双击 `run.bat` 选 1）；
+   - 表单输入完毕后，若页面弹出 Google reCAPTCHA v2 复选框，在弹出的 Chrome 窗口中轻点一下完成绿勾验证；
+   - 收到官方激活邮件后，点击链接激活；
+   - 脚本随后将以纯 REST 协议直连官方管理接口，秒级提纯并保存 $200 额度 API Key 至 `results/accounts.txt`！
 
 ### 3. 一键启动下号
 
