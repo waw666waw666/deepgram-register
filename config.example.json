@@ -1,4 +1,6 @@
 {
+  "email": null,
+  "password": null,
   "browser": {
     "headless": false,
     "slow_mo": 50,
