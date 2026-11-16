@@ -82,6 +82,9 @@ def run_single(config: dict, headless_override=None, proxy_override=None) -> boo
         adapter = DeepgramAdapter(page=page, context=context, config=config)
 
         try:
+            print(f"[*] Navigating to target site: {adapter.target_url()}...")
+            adapter.safe_navigate(adapter.target_url())
+
             print("[*] Preparing synthetic identity...")
             identity = adapter.prepare_identity()
 
