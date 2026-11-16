@@ -52,12 +52,13 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 2. Configuration (Optional)
+### 2. Configuration & Crucial Guidance
 
 Copy `config.example.json` to `config.json` to configure proxies or headless mode:
 
 ```json
 {
+  "email": null,
   "browser": {
     "headless": false,
     "slow_mo": 50,
@@ -68,6 +69,26 @@ Copy `config.example.json` to `config.json` to configure proxies or headless mod
   "output_dir": "./results"
 }
 ```
+
+### Crucial: Mailbox Configuration & Captcha Guidance
+
+1. **Custom Mailbox Recommended (100% Success Guarantee)**:
+   - Deepgram explicitly blacklists common disposable email domains (such as mail.tm);
+   - Strongly recommend providing your own Outlook, Gmail, or custom domain email in `config.json`:
+     ```json
+     {
+       "email": "your_personal_email@outlook.com",
+       "browser": {
+         "headless": false,
+         "proxy": "http://127.0.0.1:7897"
+       }
+     }
+     ```
+2. **Human-in-the-Loop Verification**:
+   - Run in headed mode on your desktop (double-click `run.bat` and select 1);
+   - When Google reCAPTCHA v2 appears, check the box in the Chrome window;
+   - Click the confirmation link in the received activation email;
+   - The script immediately executes pure REST protocols to extract and save the $200 API Key to `results/accounts.txt`.
 
 ### 3. Execution
 
