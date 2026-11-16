@@ -72,8 +72,7 @@ def run_single(config: dict, headless_override=None, proxy_override=None) -> boo
             browser = p.chromium.launch(**launch_kwargs)
 
         context = browser.new_context(
-            viewport={"width": 1280, "height": 800},
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            viewport={"width": 1280, "height": 800}
         )
         context.set_default_timeout(timeout)
         apply_stealth_to_context(context)
